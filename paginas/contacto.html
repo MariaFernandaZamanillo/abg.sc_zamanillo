@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABG.SC - CONTACTO</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header class="header"> <a name="inicio"></a>
+        <nav class="header__nav"> 
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas/nosotros.html">Nosotros</a></li>
+                <li><a href="../paginas/areas.html">Areas</a></li>
+                <li><a href="../paginas/novedades.html">Novedades</a></li>
+                <li><a href="../paginas/contacto.html">Contacto</a></li>
+                <li><a href="#pie">Ir a pie de pagina</a></li>
+             </ul>
+        </nav>
+        <span class="header__title">Maria Jose <br/>
+            Sanchez Castro
+        </span>
+    </header>
+    <section class="section">
+        <h1 class="section__title">CONTACTO</h1>
+      <form action="" method="post"> 
+          <fieldset> <legend>Formulario de contacto</legend>
+            <label for="name">Nombre y Apellido</label>
+            <input type="text" id="name" name="user_name" placeholder="Nombre y Apellido" required>
+            <br/>
+            <br/>
+             <label for="mail">Correo electronico</label>
+             <input type="email" id="mail" name="user_mail" placeholder="Correo Electronico" required>
+            <br/>
+            <br/>
+             <label for="msg">Mensage</label>
+             <br/>
+             <textarea id="msg" name=user_message cols="45" rows="15"></textarea>
+            <br/>
+            <br/>
+            <label for="newsletter">¿Desea recibir nuestro Newsletter?</label>
+            <input type="checkbox" name="newsletter">
+            <br/>
+            <br/>
+            <input type="reset" value="Limpiar formulario"/>
+            <input type="submit" value="Enviar formulario"/> 
+           </fieldset>
+      </form>
+    </section>
+    <footer>© Copyright 2022 - Todos los Derechos Reservados <br/>
+        Desarrollado por MAFERS
+    </footer>
+    <a href="#inicio">Ir a inicio</a>
+    <a name="pie"></a>
+</body>
+
+</html>
