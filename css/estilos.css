@@ -50,6 +50,26 @@ header{
     font-style: italic;
     padding: 4rem;
     margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.section__image{
+    display: flex;
+    margin: 25px;
+}
+.section__content{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.section__content2 h2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.section__content2 p{
+    display: flex;
 }
 section ul{
     padding: 2rem;
