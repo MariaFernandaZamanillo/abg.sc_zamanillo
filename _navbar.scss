@@ -1,0 +1,29 @@
+/*............NAVBAR...........*/
+
+.header__nav{
+    li{
+        display: inline-block;
+        width: 100px;
+       height: 100px;
+       transition: width 1s;  
+       &:hover {
+        width: 200px;
+     }     
+    }
+    ul{
+        padding: 2rem;
+        list-style-type: none;
+    }
+    
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        padding: 0.5rem;
+    }
+} 
+.header__title{
+    font-size: 1.5rem;
+    color: white;
+}

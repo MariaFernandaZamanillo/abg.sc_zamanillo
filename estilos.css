@@ -1,4 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*............HEADER..........*/
+header {
+  background-color: #997290;
+  color: white;
+  width: 100%;
+}
+
+/*.....NAVBAR.....*/
+/*............NAVBAR...........*/
+.header__nav li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.header__nav li:hover {
+  width: 200px;
+}
+
+.header__nav ul {
+  padding: 2rem;
+  list-style-type: none;
+}
+
+.header__nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/*..... CARD.......*/
+/*...........SECTION........*/
+.section1 {
+  background-image: url(../imagenes/images.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10rem;
+}
+
+.section1__title {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.section__title {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+  font-style: italic;
+  padding: 4rem;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px;
+}
+
+.section__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 780px) {
+  .section__content {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
+
+.section__content2 h2 {
+  padding: 1em 0em 1em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.section__content2 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section ul {
+  padding: 2rem;
+  list-style-type: none;
+}
+
+/*..............ARTICLE.......*/
+article {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  padding: 2rem;
+  margin: 1rem;
+  line-height: 1.8rem;
+}
+
+.article__title {
+  color: black;
+}
+
 body {
-  background-color: azure;
+  background-color: white;
+}
+
+/*............. FOOTER .....*/
+footer {
+  background-color: #997290;
+  color: black;
+  width: 100%;
 }
 /*# sourceMappingURL=estilos.css.map */
