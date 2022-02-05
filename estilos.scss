@@ -19,11 +19,25 @@ header{
 }
 
 /*..... CARD.......*/
+.card{
+    border-radius: 5px;
+    box-shadow: 60px -16px rgb(197, 197, 197)
+}
 .card-title {
     font: $font;
     font-weight: bolder;
     font-style: italic;
 }
+.card-text{
+    li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px; 
+        list-style-type: disc;
+    }
+        
+}
+
 /*...........SECTION........*/
 .section1{
     background-image:url(../imagenes/images.jpg);
@@ -98,6 +112,9 @@ article{
 body {
     background-color: white;
 }
+
+/*..... AREAS....*/
+
 
 /*............. FOOTER .....*/
 footer{
