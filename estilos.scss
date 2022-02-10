@@ -5,12 +5,17 @@
 //VARIABLES
 $font: 'Roboto', sans-serif;
 
+/*......MAPS.....*/
+$buttons:(send: red, clean: green);
+@each $btn, $color in $buttons {
+    .btn--#($btn){
+        background-color: $color;
+   }
+    
+} 
+
 /*............HEADER..........*/
-header{
-    background-color: lightgrey;
-    color: white;
-    width: 100%;
-}
+
 /*.....NAVBAR.....*/
 @import "navbar";
 
