@@ -1,0 +1,26 @@
+.container{
+    :hover{
+        transform: translateY(-5px);
+      }
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.card-title {
+    font: $font;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+.card-text{
+    li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px; 
+        list-style-type: disc;
+    }
+        
+}

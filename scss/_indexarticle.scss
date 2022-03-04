@@ -1,0 +1,85 @@
+.article {
+  text-align: justify;
+  margin: 4rem;
+  padding: 1rem;
+  display: grid;
+  h2{
+    font-weight: bold;
+    text-decoration: overline;
+}
+  p {
+   display: flex;
+   line-height: 2.5; font-size: 1em;
+   text-indent: 2em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .article{
+    margin: 5%;
+    padding: 1%;
+    p{
+      margin: 3%;
+      padding: 0%;
+    }
+  }
+  
+}
+
+.lema{
+display: flex;
+flex-wrap: wrap;
+}
+
+.subtitle{
+  h3{
+      font-weight: bold;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      text-decoration: overline;
+    }
+ h4{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+   }
+}
+
+.reasons{
+display: flex;
+flex-direction: row;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 2fr;
+
+ h5{
+     font-weight: bolder;
+     text-align:left;
+ }
+ div{
+     margin: 1rem;
+     padding: 1rem;
+ }
+}
+@media screen and (max-width: 480px) {
+  .reasons {
+  display: grid;
+  width: 100%;
+  margin: 0 ;
+   
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  align-items:flex-start;
+  margin: 0%;
+  
+  display: flex;
+  flex-direction: column;
+
+  }
+}

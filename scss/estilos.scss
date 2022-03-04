@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+//VARIABLES
+$font: 'Roboto', sans-serif;
+
+/*............HEADER..........*/
+
+/*.....NAVBAR.....*/
+@import "navbar";
+
+.navbar-nav a:hover{
+        width: 100px
+}
+
+/*.....INDEX ARTICLE ..*/
+@import "indexarticle";
+
+
+
+/*..............ARTICLE.......*/
+article{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    line-height: 1.8rem;
+}
+.article__title{
+    color: black;
+}
+
+body {
+    background-color: white;
+}
+
+/*.... HOME....*/
+.carousel-caption{
+    h5{font-size: 2rem;
+        font-weight: bolder;
+    }
+    p{font-size: 2rem;
+        font-style: oblique;
+
+    }
+}
+
+/*.... NOSOTROS....*/
+@import "nosotros";
+
+/*.... NOVEDADES ...*/
+@import "novedades";
+
+/*....AREAS....*/
+@import "areas";
+
+/*....CONTACTANOS....*/
+@import "contactanos";
+
+/*....FOOTER.....*/
+.footer{
+    background-color: lightgrey;
+    color: black;
+    width: 100%;
+}
